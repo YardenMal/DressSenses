@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from st_clickable_images import clickable_images
-from streamlit_elements import elements, mui, html
 from DressSenseUtils import get_colors_shapes, get_sorted_dict_of_colors, show_color
 selected = option_menu(
     menu_title="DressSense", menu_icon="bi-palette",
