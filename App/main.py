@@ -216,7 +216,3 @@ if selected == "About":
                         """
 
     st.markdown(f'<div dir="ltr"">{discription_text} </div>', unsafe_allow_html=True)
-    # st.write("This system was created in order to assist blindcolor people choosing their clothes. \n"
-    #          "Getting to know friends who are color blind, made us realize that there is a difficulty in choosing suitable colors for clothes, and that this process takes time for them.\n"
-    #          "Our goal was to help the color blind in this process in a visually user-friendly way.")
-    # # st.write("This system was made in order to assist blindcolor people choosing their clothes.")
