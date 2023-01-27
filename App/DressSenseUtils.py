@@ -7,7 +7,6 @@ from collections import Counter
 import cv2
 import streamlit as st
 from PIL import ImageColor, Image
-import argparse
 import os
 #Reading csv file with pandas
 csv = pd.read_csv('new_colors.csv')
