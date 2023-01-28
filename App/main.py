@@ -1,3 +1,4 @@
+import pip
 pckgs = ['scikit-learn', 'streamlit_option_menu','st_clickable_images']
 def import_or_install(package):
     try:
