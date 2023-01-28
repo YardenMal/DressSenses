@@ -1,3 +1,13 @@
+pckgs = ['scikit-learn', 'streamlit_option_menu','st_clickable_images']
+def import_or_install(package):
+    try:
+        __import__(package)
+    except ImportError:
+        pip.main(['install', package])
+
+for p in pckgs:
+    import_or_install(p)
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 from st_clickable_images import clickable_images
